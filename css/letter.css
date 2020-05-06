@@ -1,0 +1,16 @@
+tei-p {
+  color: green
+}
+
+tei-hi::before {
+  content: "***"
+}
+
+tei-hi::after {
+  content: "***"
+}
+
+
+tei-hi[rendition="#sup"] {
+  vertical-align: super;
+}
